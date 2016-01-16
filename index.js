@@ -10,7 +10,7 @@ if (keyword === undefined) {
 }
 
 try {
-  var content = fs.readFileSync('./cheats/' + keyword + '.md', 'utf8')
+  var content = fs.readFileSync('/usr/lib/node_modules/gitcheat/cheats/' + keyword + '.md', 'utf8')
 } catch (e) {
   if (e.code === 'ENOENT') {
     content = fs.readFileSync('./docs/help.md', 'utf8')
