@@ -1,6 +1,6 @@
 {
   "name": "gitcheat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Command line utility that summarizes commonly used Git commands",
   "preferGlobal": true,
   "scripts": {
