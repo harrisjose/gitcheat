@@ -1,0 +1,35 @@
+{
+  "name": "gitcheat",
+  "version": "1.0.0",
+  "description": "Command line utility that summarizes commonly used Git commands",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harrisjose/gitcheat"
+  },
+  "bin": {
+    "gcs": "index.js",
+    "gitcheat": "index.js"
+  },
+  "keywords": [
+    "github",
+    "gitcheat",
+    "git",
+    "cheat",
+    "help",
+    "cheat sheet",
+    "git help",
+    "git commands"
+  ],
+  "author": "Harris Jose <harrisjose@outlook.com> (http://harrisjose.github.io/)",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^3.0.0"
+  },
+  "dependencies": {
+    "msee": "^0.2.0"
+  }
+}
